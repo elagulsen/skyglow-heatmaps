@@ -1,12 +1,11 @@
 # skyglow-heatmaps
-Light Pollution Heatmaps of Pittsburgh
-
-For the CMU skyglow class, summer 2020
+Light Pollution Heatmaps of Pittsburgh, for the summer 2020 CMU skyglow class.
 
 By Ela Gulsen
 
+![pittsburgh heatmap](https://github.com/elagulsen/skyglow-heatmaps/blob/master/img/heatmap.png?raw=true)
 
-Using datasets from Globe at Night and Dark Sky Meter.
+This project uses datasets provided by Globe at Night and Dark Sky Meter.
 
 Check out the skyglow class website [here!](https://skyglow-cmu.github.io/index.html)
 
