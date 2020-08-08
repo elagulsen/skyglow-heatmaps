@@ -6,6 +6,7 @@
 # using data sets provided by Dark Sky Meter and Globe At Night
 
 # This needs to be run every time you re-download the Dark Sky Meter data set.
+# It also removes excess entries from the Globe at Night data sets.
 
 import csv
 
@@ -19,16 +20,29 @@ LAT_MAX = 40.55
 LONG_MIN = -80.15
 LONG_MAX = -79.8
 
-with open('datasets/dsm_database.csv', 'r') as infile, open('datasets/reordered_dsm.csv', 'w') as outfile:
+read_ds = input('Name of data set to read (from datasets folder): ')
+write_ds = input('Name of data set to write (from datasets folder): ')
+
+with open('datasets/' + read_ds, 'r') as infile, open('datasets/' + write_ds, 'w') as outfile:
     # output dict needs a list for new column ordering
-    fieldnames = ['_date', '_moon', '_deviceangle', '_lat', '_lng', '_typedesc', '_device', '_nelm','_type','_clouds','_user_tag','_sqm']
+    if 'GaN' in read_ds:
+        fieldnames = ['ID','ObsType','ObsID','Latitude','Longitude','Elevation(m)','LocalDate','LocalTime','UTDate','UTTime','LimitingMag','SQMReading','Country','SQMSerial','CloudCover','Constellation','LocationComment','SkyComment']
+    else:
+        fieldnames = ['_date', '_moon', '_deviceangle', '_lat', '_lng', '_typedesc', '_device', '_nelm','_type','_clouds','_user_tag','_sqm']
     writer = csv.DictWriter(outfile, fieldnames=fieldnames)
     # reorder the header first
     writer.writeheader()
     for row in csv.DictReader(infile):
-        lat = float(list(row.items())[2][1])
-        long = float(list(row.items())[3][1])
-        date = list(row.items())[0][1]
+        lat,long,date = 0,0,0
+        r_list = list(row.items())
+        for item in r_list:
+            #print(item)
+            if '_lat' in item or 'Latitude' in item:
+                lat = float(item[1])
+            elif '_lng' in item or 'Longitude' in item:
+                long = float(item[1])
+            elif '_date' in item or 'SQMReading' in item:
+                date = item[1]
         if lat > LAT_MIN and lat < LAT_MAX and long > LONG_MIN and long < LONG_MAX and not date in bad_dates:
             # writes the reordered rows to the new file
             writer.writerow(row)

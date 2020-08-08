@@ -24,19 +24,26 @@ from PIL import Image
 #these are aesthetic and can be adjusted as you see fit
 #higher dimensions can take a while so use 100 and 5 for testing
 
-try:
-    DIM = int(sys.argv[1]) if sys.argv[1] != 'd' else 300
-    RADIUS = float(sys.argv[2]) if sys.argv[2] != 'd' else 7
-    SIGMA = float(sys.argv[3]) if sys.argv[3] != 'd' else RADIUS/4
-    ALPHA = float(sys.argv[4]) if sys.argv[4] != 'd' else 0.7
-except:
-    print('Please input your arguments like so: DIM RADIUS SIGMA ALPHA\n \
-               Ex. python heatmap.py 300 10 0 0.6\n \
-               If you want a default recommended value, input a \'d\' for the argument instead of a number.\n \
-               Ex. python heatmap.py d d d d')
-    quit()
+import time
+start = time.time()
 
-print('Generating heatmap now...')
+DIM,RADIUS,SIGMA,ALPHA = None,None,None,None
+for arg in sys.argv:
+    if 'DIM=' in arg or 'D=' in arg:
+        DIM = int(arg.split('=')[1])
+    elif 'RADIUS=' in arg or 'RAD=' in arg or 'R=' in arg:
+        RADIUS = int(arg.split('=')[1])
+    elif 'SIGMA=' in arg or 'SIG=' in arg or 'S=' in arg:
+        SIGMA = float(arg.split('=')[1])
+    elif 'ALPHA=' in arg or 'A=' in arg:
+        ALPHA = float(arg.split('=')[1])
+
+DIM = 300 if not DIM else DIM
+RADIUS = int(DIM/30) if not RADIUS else RADIUS
+SIGMA = float(RADIUS/4) if not SIGMA else SIGMA
+ALPHA = 0.7 if not ALPHA else ALPHA
+
+print('Generating heatmap now with dimension ' + str(DIM) + ', radius ' + str(RADIUS) + ', sigma ' + str(SIGMA) + ', and alpha ' + str(ALPHA) + '.')
 if DIM>500:
     print('Since your dimension is greater than 500, this may take a bit! Please be patient.')
 
@@ -50,7 +57,7 @@ LONG_MAX = -79.8
 #longitude = row[4]
 #sqm = row[11]
 
-file_names = ['GaN2019.csv', 'GaN2018.csv', 'GaN2017.csv', 'GaN2016.csv', 'GaN2015.csv', 'GaN2014.csv', 'reordered_dsm.csv']
+file_names = ['GaN2019_2.csv', 'GaN2018_2.csv', 'GaN2017_2.csv', 'GaN2016_2.csv', 'GaN2015_2.csv', 'GaN2014_2.csv', 'reordered_dsm.csv']
 
 data = np.zeros((DIM, DIM))
 
@@ -176,3 +183,6 @@ os.remove("heatmap2.png")
 
 underlay.save("heatmap.png", "PNG")
 print('Finished! Heatmap is saved under heatmap.png.')
+
+end = time.time()
+print('That took ' + str(round(end - start, 3)) + ' seconds!')

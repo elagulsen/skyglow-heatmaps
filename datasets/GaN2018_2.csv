@@ -1,0 +1,3 @@
+ID,ObsType,ObsID,Latitude,Longitude,Elevation(m),LocalDate,LocalTime,UTDate,UTTime,LimitingMag,SQMReading,Country,SQMSerial,CloudCover,Constellation,LocationComment,SkyComment
+202320,SQM,11921,40.4194,-79.9357,352.308,2018-06-30,22:30,2018-07-01,02:30,3,18.5,United States - Pennsylvania,,clear,Hercules,"Urban, 5 street lights within one block",Hazy; Light Domes in NW and SE.
+202543,SQM,12737,40.4196,-79.9358,354.792,2018-07-13,22:35,2018-07-14,02:35,3,18.4,United States - Pennsylvania,9898,clear,Hercules,Urban; 5 streetlights within one block; spruce trees within 50 feet,Light domes in NW and SE; 3rd mag barely visible.

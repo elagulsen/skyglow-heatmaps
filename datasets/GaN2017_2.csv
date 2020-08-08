@@ -1,0 +1,51 @@
+ID,ObsType,ObsID,Latitude,Longitude,Elevation(m),LocalDate,LocalTime,UTDate,UTTime,LimitingMag,SQMReading,Country,SQMSerial,CloudCover,Constellation,LocationComment,SkyComment
+183703,GAN,1774,40.4827,-80.0198,368.72,2017-02-17,21:58,2017-02-18,02:58,3,,United States - Pennsylvania,,clear,Orion,,
+183724,GAN,1799,40.4451,-79.9617,337.25,2017-02-18,19:25,2017-02-19,00:25,2,,United States - Pennsylvania,,clear,Orion,University Campus    Numerous shielded streetlights,Slight glow from the West-Southwest
+183913,GAN,1988,40.4731,-80.0673,280.86,2017-02-19,20:10,2017-02-20,01:10,3,,United States - Pennsylvania,,clear,Orion,,clear
+183961,SQM,2033,40.4196,-79.9358,354.27,2017-02-19,19:34,2017-02-20,00:34,4,18.54,United States - Pennsylvania,9898,clear,Orion,"Urban, several HPS streetlights within one city block of observ.; neighbors' streetlights approx. 100 feet directly across street",Sky Clear; NELM approx. 5.0
+183999,GAN,2069,40.4488,-79.9526,286.46,2017-02-20,19:22,2017-02-21,00:22,-9999,,United States - Pennsylvania,,1/4 of sky,Orion,Area of North Oakland that is more suburban (a little further out of South Oakland and central campus).,"I didn't think there were clouds tonight. Earlier in the day, there was a bit of fog that I thought had disappated. Regardless, the stars weren't very bright tonight although I managed to see a view at least 3 or 4 stars."
+184287,GAN,2367,40.4243,-79.9322,333.59,2017-02-22,21:44,2017-02-23,02:44,1,,United States - Pennsylvania,,1/2 of sky,Orion,Urban; house on a hill,Partly Cloudy but clear enough to observe some stars
+184754,GAN,2820,40.4379,-79.9556,276.54,2017-02-25,22:06,2017-02-26,03:06,2,,United States - Pennsylvania,,1/4 of sky,Orion,Fairly Urban Setting. Large amount of light pollution,
+184901,GAN,2963,40.4426,-79.9567,280.51,2017-02-26,21:54,2017-02-27,02:54,2,,United States - Pennsylvania,,clear,Orion,Very Urban location with lots of tall lit up buildings and streetlights,The sky was clear of all clouds but there was definitely skyglow from the light emitting up into the sky off the tall lit up buildings in the city.
+185097,GAN,3159,40.4388,-79.9514,259.42,2017-02-24,21:30,2017-02-25,02:30,3,,United States - Pennsylvania,,clear,Orion,A residential area within the city,
+185162,GAN,3226,40.4476,-79.9603,359.55,2017-02-27,23:37,2017-02-28,04:37,2,,United States - Pennsylvania,,1/2 of sky,Orion,,It's extremely hard to see the night sky due to the fact that I live right next to a hospital.
+185164,GAN,3228,40.4476,-79.9603,359.55,2017-02-27,23:42,2017-02-28,04:42,2,,United States - Pennsylvania,,1/2 of sky,Orion,,It's extremely hard to see where I am at night because I live right next to a hospital.
+185565,GAN,3665,40.4039,-79.9926,326.65,2017-02-26,23:15,2017-02-27,04:15,2,,United States - Pennsylvania,,1/4 of sky,Orion,Urban area with a shopping complex very close by.,Hazy and some cloud coverage.
+188049,GAN,6027,40.4425,-79.9538,273.63,2017-04-14,01:47,2017-04-14,05:47,-9999,,United States - Pennsylvania,,over 1/2 of sky,Leo,"Urban area, numerous street lights",Fairly cloudy
+188302,GAN,6276,40.4427,-79.9566,280.6,2017-04-19,03:19,2017-04-19,07:19,1,,United States - Pennsylvania,,1/2 of sky,Leo,"City/urban environment, lots of light from street lights and buildings.",Cloudy
+188308,GAN,6282,40.4324,-79.9417,313.33,2017-04-18,23:30,2017-04-19,03:30,1,,United States - Pennsylvania,,1/2 of sky,Leo,"The local neighborhood Oakland and Pittsburgh added to the light pollution, but some stars were still visible.",
+188678,GAN,6654,40.4654,-79.9257,277.68,2017-04-22,10:12,2017-04-22,14:12,3,,United States - Pennsylvania,,1/4 of sky,Leo,,Cloud coverage in very small areas.
+188927,GAN,6901,40.4324,-79.9426,319.6,2017-04-18,23:30,2017-04-19,03:30,2,,United States - Pennsylvania,,1/4 of sky,Leo,,
+188928,GAN,6902,40.4379,-79.9556,276.54,2017-04-19,23:30,2017-04-20,03:30,-9999,,United States - Pennsylvania,,over 1/2 of sky,Leo,,
+188929,GAN,6903,40.4379,-79.9556,276.54,2017-04-20,23:30,2017-04-21,03:30,1,,United States - Pennsylvania,,1/2 of sky,Leo,,
+188930,GAN,6904,40.4379,-79.9556,276.54,2017-04-21,23:30,2017-04-22,03:30,1,,United States - Pennsylvania,,1/2 of sky,Leo,,
+188931,GAN,6905,40.4379,-79.9556,276.54,2017-04-22,23:30,2017-04-23,03:30,1,,United States - Pennsylvania,,1/2 of sky,Leo,,
+188932,GAN,6906,40.4379,-79.9556,276.54,2017-04-23,23:30,2017-04-24,03:30,2,,United States - Pennsylvania,,1/4 of sky,Leo,,
+188933,GAN,6907,40.4379,-79.9556,276.54,2017-04-24,23:30,2017-04-25,03:30,-9999,,United States - Pennsylvania,,over 1/2 of sky,Leo,,
+188934,GAN,6908,40.4379,-79.9556,276.54,2017-04-25,15:22,2017-04-25,19:22,-9999,,United States - Pennsylvania,,over 1/2 of sky,Leo,,
+188935,GAN,6909,40.4379,-79.9556,276.54,2017-04-26,23:30,2017-04-27,03:30,3,,United States - Pennsylvania,,clear,Leo,,
+188936,GAN,6910,40.4379,-79.9556,276.54,2017-04-27,23:30,2017-04-28,03:30,3,,United States - Pennsylvania,,clear,Leo,,
+188984,GAN,6962,40.4527,-79.9519,278.19,2017-04-26,21:07,2017-04-27,01:07,3,,United States - Pennsylvania,,clear,Leo,In a dimly lit field,Very clear night   In a city so it's about as clear as it'll get.
+188985,GAN,6963,40.4456,-79.9627,341.42,2017-04-26,21:08,2017-04-27,01:08,3,,United States - Pennsylvania,,clear,Leo,In a field as far from light as possible,Very clear night by Pittsburgh standards so a little bit of haze
+189002,GAN,6980,40.507,-80.043,319.05,2017-04-27,00:11,2017-04-27,04:11,2,,United States - Pennsylvania,,clear,Leo,The location I did my observation had lots of street lights. It also had lots of trees.,The sky was very clear. Although it was very clear . really couldn't see a lot of stars out.
+189286,GAN,7058,40.4392,-79.9524,274.75,2017-04-28,02:40,2017-04-28,06:40,-9999,,United States - Pennsylvania,,1/4 of sky,Leo,,
+189724,DSM,19140,40.4518,-79.9181,306.71,2017-04-30,21:49:04,2017-05-01,01:49,3,16.97,United States - Pennsylvania,,clear,,,"From ""Dark Sky Meter""  sky: """""
+189775,DSM,19191,40.4521,-79.9185,307.96,2017-04-26,22:31:07,2017-04-27,02:31,3,17.13,United States - Pennsylvania,,clear,,,"From ""Dark Sky Meter""  sky: """""
+189776,DSM,19192,40.4517,-79.9183,306.62,2017-04-26,22:27:53,2017-04-27,02:27,3,17.01,United States - Pennsylvania,,clear,,,"From ""Dark Sky Meter""  sky: """""
+189778,DSM,19194,40.454,-79.92,289.29,2017-04-26,22:23:05,2017-04-27,02:23,3,16.7,United States - Pennsylvania,,clear,,,"From ""Dark Sky Meter""  sky: """""
+189779,DSM,19195,40.4545,-79.922,284.98,2017-04-26,22:18:43,2017-04-27,02:18,2,15.55,United States - Pennsylvania,,clear,,,"From ""Dark Sky Meter""  sky: """""
+189871,SQM,7516,40.4196,-79.9358,354.27,2017-05-15,22:00,2017-05-16,02:00,5,18.65,United States - Pennsylvania,9898,clear,Leo,Urban; 5 streetlights within one city block; two large spruce trees with 50 feet,Sky bright but very transparent; light domes in SE and NW; NELM approx. 5.0
+190605,DSM,19315,40.4539,-79.9155,289.48,2017-05-15,21:55,2017-05-16,01:55,2,15.48,United States - Pennsylvania,,clear,,,"From ""Dark Sky Meter""  sky: """""
+190606,DSM,19316,40.4554,-79.9176,284,2017-05-15,21:51:37,2017-05-16,01:51,3,17.33,United States - Pennsylvania,,clear,,,"From ""Dark Sky Meter""  sky: """""
+191665,GAN,8770,40.4435,-79.943,289.17,2017-06-20,23:00,2017-06-21,03:00,1,,United States - Pennsylvania,,clear,Hercules,"Urban, many lights in area",
+192261,GAN,9132,40.4476,-79.9326,315.9,2017-07-19,22:01,2017-07-20,02:01,1,,United States - Pennsylvania,,clear,Hercules,Suburban location  No street lights in visible proximity (dark)  Apartment complex surrounding location  Minimal light sources from some windows  Turned off garage lights  Some trees nearby,Clear sky
+192277,SQM,9147,40.4194,-79.9358,352.41,2017-07-15,22:33,2017-07-16,02:33,4,18.57,United States - Pennsylvania,9898,clear,Hercules,Urban; 5 streetlights within one block; two large spruce trees approx. 50 feet away.,"Light domes in SE, NW; NELM approx 4.5"
+192278,SQM,9148,40.4194,-79.9358,352.41,2017-07-18,22:40,2017-07-19,02:40,4,18.3,United States - Pennsylvania,9898,clear,Hercules,Urban; 5 streetlights within one block; two large spruce trees approx. 50 feet away.,"Light Domes in SE, NW; NELM 4.0"
+192279,SQM,9149,40.4194,-79.9359,352.65,2017-07-19,23:42,2017-07-20,03:42,4,18.21,United States - Pennsylvania,9898,1/4 of sky,Hercules,Urban; 5 streetlights within one block; two large spruce tress approx. 50 feet away.,"Light domes in SE, NW; NELM 4.0"
+192512,DSM,19972,40.4419,-79.9473,277.93,2017-07-18,21:46:33,2017-07-19,01:46,4,18.4,United States - Pennsylvania,,clear,,,"From ""Dark Sky Meter""  sky: """""
+192740,GAN,9285,40.4417,-79.9467,281.6,2017-07-31,22:33,2017-08-01,02:33,3,,United States - Pennsylvania,,clear,Hercules,,
+192741,GAN,9286,40.4432,-79.9428,289.41,2017-07-31,21:48,2017-08-01,01:48,2,,United States - Pennsylvania,,clear,Hercules,A lot of light source from buildings.,"the sky was clear but not very dark, the moon was pretty bright."
+192759,GAN,9291,40.4533,-79.9349,274.39,2017-08-02,00:26,2017-08-02,04:26,-9999,,United States - Pennsylvania,,over 1/2 of sky,Hercules,,
+192809,GAN,9317,40.4433,-79.9272,315.5,2017-08-09,22:00,2017-08-10,02:00,3,,United States - Pennsylvania,,clear,Hercules,,Clear night.
+192820,SQM,9324,40.4195,-79.9357,352.51,2017-08-08,22:45,2017-08-09,02:45,5,18.21,United States - Pennsylvania,9898,clear,Hercules,Urban; 5 streetlights within one city block.,"Sky clear; Light domes in SE, NW. Bright moon one day past full in SE."
+192821,SQM,9325,40.4194,-79.9356,351.71,2017-08-09,22:29,2017-08-10,02:29,5,18.34,United States - Pennsylvania,9898,clear,Hercules,Urban; 5 streetlights within one city block.,"Sky clear; Light domes in SE, NW. Bright moon two days past full in SE."
