@@ -40,7 +40,7 @@ for arg in sys.argv:
 
 DIM = 300 if not DIM else DIM
 RADIUS = int(DIM/30) if not RADIUS else RADIUS
-SIGMA = float(RADIUS/4) if not SIGMA else SIGMA
+SIGMA = float(RADIUS/4) if SIGMA == None else SIGMA
 ALPHA = 0.7 if not ALPHA else ALPHA
 
 print('Generating heatmap now with dimension ' + str(DIM) + ', radius ' + str(RADIUS) + ', sigma ' + str(SIGMA) + ', and alpha ' + str(ALPHA) + '.')
